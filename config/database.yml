@@ -49,7 +49,7 @@ production:
   <<: *default
   database: db/production.sqlite3
   
-  production:
+production:
  adapter: postgresql
  encoding: unicode
  database: pizza_shop_test_development
